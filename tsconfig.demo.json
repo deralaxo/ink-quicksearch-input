@@ -1,8 +1,8 @@
 {
   "extends": "@sindresorhus/tsconfig",
 	"compilerOptions": {
-		"outDir": "dist",
+		"outDir": "./demo/dist",
 	},
-  "include": ["./src", "./src/**/*"],
+  "include": ["./src", "./src/**/*", "./demo/**/*.tsx"],
   "exclude": ["node_modules"]
 }
